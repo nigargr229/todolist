@@ -1,0 +1,26 @@
+<html>
+  <head>
+    <link rel="stylesheet" href="style.css" type="text/css" media="screen" charset="utf-8">    
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+
+  </head>
+  <body>
+   
+    <div class="container"> 
+        <div><h3 style="text-align:center;font-size:20px;padding:10px 20px;background:rgb(196, 1, 196)">My Todo List</h3></div>
+        <ul id="incomplete-tasks">
+            <li><input type="checkbox"><label>Styleguide creation</label><input type="text"><button class="edit">Edit</button><button class="delete"><i class="fas fa-trash-alt"></i></button></li>
+            <li><input type="checkbox"><label>Send wireframes</label><input type="text" value="Go Shopping"><button class="edit">Edit</button><button class="delete"><i class="fas fa-trash-alt"></i></button></li>
+        </ul>
+        <ul id="completed-tasks">
+            <li><input type="checkbox" checked><label>Check color contrast</label><input type="text"><button class="edit">Edit</button><button class="delete"><i class="fas fa-trash-alt"></i></button></li>
+        </ul>
+        <p>
+            <label for="new-task">Add Item</label><input id="new-task" type="text"><button>Add</button>
+        </p>
+    </div>
+
+    <script type="text/javascript" src="app.js"></script>
+
+  </body>
+</html>

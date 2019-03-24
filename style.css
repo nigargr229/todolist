@@ -1,0 +1,83 @@
+.container {
+    width: 400px;
+    margin: 100px auto 0;
+}
+ul {
+    margin: 0;
+    padding: 0;
+}
+li * {
+    float: left;
+}
+
+button {
+    background: none;
+    border: 0px;
+    color: rgb(119, 118, 118);
+    font-size: 15px;
+    width: 60px;
+    margin: 10px 0 0;
+    cursor: pointer;
+}
+button:hover {
+    color: rgb(20, 20, 20);
+}
+ 
+h3,
+label[for='new-task'] {
+    color: rgb(68, 68, 68);
+    font-weight: 700;
+    font-size: 15px;
+    margin: 0;
+}
+input[type="text"] {
+    margin: 0;
+    font-size: 18px;
+    line-height: 18px;
+    height: 18px;
+    padding: 10px;
+    background: #fff;  
+    color: rgb(136, 136, 136);
+}
+
+input#new-task {
+    float: left;
+    width: 320px;
+}
+p > button:hover {
+    color: rgb(116, 13, 13);
+}
+  
+li {
+    overflow: hidden;
+}
+li > input[type="checkbox"] {
+    margin: 0 10px;
+    position: relative;
+    top: 15px;
+}
+li > label {
+    font-size: 18px;
+    line-height: 40px;
+    width: 230px;
+    padding: 0 0 0 11px;
+}
+li >  input[type="text"] {
+    width: 220px;
+}
+li > .delete:hover {
+    color: firebrick;
+}
+#completed-tasks label {
+    text-decoration: line-through;
+    color: #886;
+}
+ul li input[type=text] {
+    display:none;
+}  
+ul li.editMode input[type=text] {
+    display:block;
+}
+ul li.editMode label {
+    display:none;
+}
